@@ -2,3 +2,64 @@
   margin-left : 80px;
   font-size : 18px;
 }
+
+.row {
+  height:fit-content;
+  /* border: 1px solid red; */
+  align-items: center;
+  display: grid;
+  grid-template-columns: 400px auto 400px;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 5%;
+}
+
+.col1 {
+  /* border: 1px solid green; */
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+/* .col2 {
+  border: 1px solid blue;
+} */
+
+.col3 {
+  /* border: 1px solid yellow; */
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.box1 {
+  display: grid;
+  grid-template-columns: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.power {
+  font-size: xx-large;
+  margin: 50px;
+}
+
+body {
+  text-align: center;
+}
+
+.score {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 950px) {
+  .row {
+    height: fit-content;
+    /* border: 1px solid red; */
+    align-items: center;
+    display: grid;
+    grid-template-columns: 400px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 10%;
+  }
+}
